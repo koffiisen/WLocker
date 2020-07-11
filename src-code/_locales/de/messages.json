@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "Name der Erweiterung"
+  },
+  "action_menu": {
+    "message": "Sperre Dieser Seite 🔒 (Shift+L)"
+  },
+  "options_old": {
+    "message": "Geben Sie ein : Ihre alte pin"
+  },
+  "options_new": {
+    "message": "Geben Sie ein : Ihr neues pin"
+  },
+  "options_state": {
+    "message": "Erfolgreich gerettet"
+  },
+  "options_reset": {
+    "message": "Zurücksetzen"
+  }
+}

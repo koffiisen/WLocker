@@ -1,0 +1,664 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+:root {
+    --primary: #5628EE;
+    --success: #41D071;
+    --grey-light: #99A3BA;
+    --grey: #6C7486;
+    --grey-dark: #3F4656;
+    --light: #CDD9ED;
+    --lighter: #E4ECFA;
+    --shadow: rgba(255, 255, 255, .1);
+
+    --f7-elevation-0: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    --f7-elevation-1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    --f7-elevation-7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+    --f7-elevation-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    --f7-elevation-9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+    --f7-elevation-10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+    --f7-elevation-11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+    --f7-elevation-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+    --f7-elevation-13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+    --f7-elevation-14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14), 0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+    --f7-elevation-15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+    --f7-elevation-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+    --f7-elevation-17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14), 0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+    --f7-elevation-18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14), 0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+    --f7-elevation-19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14), 0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+    --f7-elevation-20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14), 0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+    --f7-elevation-21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+    --f7-elevation-22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14), 0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+    --f7-elevation-23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14), 0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+    --f7-elevation-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)
+}
+
+.drop {
+    --r: 0rad;
+    width: 380px;
+    height: 450px;
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 4px 24px -2px var(--shadow);
+    box-shadow: 0 4px 24px -2px var(--shadow);
+    position: relative;
+}
+
+.drop nav {
+    border-bottom: 1px solid var(--lighter);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.drop nav > svg {
+    display: block;
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+    color: var(--grey-light);
+}
+
+.drop nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.drop nav ul:last-child {
+    margin-left: auto;
+}
+
+.drop nav ul li {
+    margin-bottom: -1px;
+}
+
+.drop nav ul li:not(:last-child) {
+    margin-right: 16px;
+}
+
+.drop nav ul li a {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: var(--grey-light);
+    text-decoration: none;
+    padding: 12px 0 11px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.drop nav ul li a svg {
+    width: 21px;
+    height: 21px;
+    display: block;
+}
+
+.drop nav ul li.active a {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.drop .center {
+    --y: 52px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    z-index: 6;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    -o-transition: transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transform: translate(-50%, var(--y));
+    -ms-transform: translate(-50%, var(--y));
+    transform: translate(-50%, var(--y));
+}
+
+.drop .center > div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 43px;
+    width: 120px;
+    background: var(--primary);
+    border-radius: 5px;
+    -webkit-transition: width .2s ease, height .2s ease, border-radius .2s ease, opacity .4s ease;
+    -o-transition: width .2s ease, height .2s ease, border-radius .2s ease, opacity .4s ease;
+    transition: width .2s ease, height .2s ease, border-radius .2s ease, opacity .4s ease;
+    pointer-events: none;
+}
+
+.drop .center > div span,
+.drop .center > div .circle, .drop .center > div > svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.drop .center > div span, .drop .center > div > svg {
+    color: #fff;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+
+.drop .center > div span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.drop .center > div > svg {
+    width: 32px;
+    height: 32px;
+    opacity: 0;
+}
+
+.drop .center > div .circle {
+    opacity: 0;
+}
+
+.drop .center > div .circle svg {
+    width: 92px;
+    height: 92px;
+    color: var(--primary);
+    display: block;
+    -webkit-transform: rotate(var(--r));
+    -ms-transform: rotate(var(--r));
+    transform: rotate(var(--r));
+}
+
+.drop .intro,
+.drop .hint {
+    --y: -76px;
+    color: var(--grey);
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    -webkit-transform: translate(-50%, var(--y));
+    -ms-transform: translate(-50%, var(--y));
+    transform: translate(-50%, var(--y));
+    -webkit-transition: opacity .2s ease, -webkit-transform .4s ease;
+    transition: opacity .2s ease, -webkit-transform .4s ease;
+    -o-transition: opacity .2s ease, transform .4s ease;
+    transition: opacity .2s ease, transform .4s ease;
+    transition: opacity .2s ease, transform .4s ease, -webkit-transform .4s ease;
+    pointer-events: none;
+}
+
+.drop .intro h4,
+.drop .hint h4 {
+    margin-bottom: 8px;
+    color: var(--grey-dark);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.drop .intro p,
+.drop .hint p {
+    margin: 0;
+}
+
+.drop .hint {
+    --y: 80px;
+    opacity: 0;
+}
+
+.drop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.drop ul.list li {
+    --y: 8px;
+    padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transform: translateY(var(--y));
+    -ms-transform: translateY(var(--y));
+    transform: translateY(var(--y));
+    -webkit-transition: opacity .4s ease, -webkit-transform .4s ease;
+    transition: opacity .4s ease, -webkit-transform .4s ease;
+    -o-transition: opacity .4s ease, transform .4s ease;
+    transition: opacity .4s ease, transform .4s ease;
+    transition: opacity .4s ease, transform .4s ease, -webkit-transform .4s ease;
+}
+
+.drop ul.list li:not(:first-child) {
+    border-top: 1px solid var(--lighter);
+}
+
+.drop ul.list li:nth-child(1) {
+    -webkit-transition-delay: 0.24s;
+    -o-transition-delay: 0.24s;
+    transition-delay: 0.24s;
+}
+
+.drop ul.list li:nth-child(2) {
+    -webkit-transition-delay: 0.32s;
+    -o-transition-delay: 0.32s;
+    transition-delay: 0.32s;
+}
+
+.drop ul.list li:nth-child(3) {
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.drop ul.list li:nth-child(4) {
+    -webkit-transition-delay: 0.48s;
+    -o-transition-delay: 0.48s;
+    transition-delay: 0.48s;
+}
+
+.drop ul.list li:nth-child(5) {
+    -webkit-transition-delay: 0.56s;
+    -o-transition-delay: 0.56s;
+    transition-delay: 0.56s;
+}
+
+.drop ul.list li img {
+    border-radius: 5px;
+    width: 84px;
+    height: 48px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 12px;
+    -webkit-box-shadow: 0 4px 12px var(--shadow);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.drop ul.list li .text strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--grey-dark);
+    margin-bottom: 4px;
+}
+
+.drop ul.list li .text small {
+    display: block;
+    color: var(--grey-light);
+    font-size: 14px;
+}
+
+.drop ul.list li .progress {
+    margin-left: auto;
+    border-radius: 50%;
+    background: var(--light);
+    position: relative;
+}
+
+.drop ul.list li .progress:before {
+    --s: 1;
+    content: '';
+    width: 28px;
+    height: 28px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    border-radius: inherit;
+    -webkit-transform: translate(-50%, -50%) scale(var(--s));
+    -ms-transform: translate(-50%, -50%) scale(var(--s));
+    transform: translate(-50%, -50%) scale(var(--s));
+    -webkit-transition: -webkit-transform .32s ease;
+    transition: -webkit-transform .32s ease;
+    -o-transition: transform .32s ease;
+    transition: transform .32s ease;
+    transition: transform .32s ease, -webkit-transform .32s ease;
+}
+
+.drop ul.list li .progress svg {
+    display: block;
+    fill: none;
+}
+
+.drop ul.list li .progress svg.pie {
+    --s: 1;
+    width: 32px;
+    height: 32px;
+    -webkit-transform: rotate(-90deg) scale(var(--s));
+    -ms-transform: rotate(-90deg) scale(var(--s));
+    transform: rotate(-90deg) scale(var(--s));
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.drop ul.list li .progress svg.pie circle {
+    stroke-width: 16;
+    stroke: var(--primary);
+}
+
+.drop ul.list li .progress svg.tick {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: var(--primary);
+    -webkit-transition: stroke .3s ease .8s;
+    -o-transition: stroke .3s ease .8s;
+    transition: stroke .3s ease .8s;
+}
+
+
+.drop.dragged .center {
+    --y: 4px;
+}
+
+.drop.dragged .center > div {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    -webkit-animation: move 2s ease-in-out infinite .2s;
+    animation: move 2s ease-in-out infinite .2s;
+}
+
+.drop.dragged .center > div span {
+    opacity: 0;
+}
+
+.drop.dragged .center > div > svg {
+    opacity: 1;
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.drop.dragged .center > div .circle {
+    opacity: 1;
+    -webkit-transition: opacity 0s ease .2s;
+    -o-transition: opacity 0s ease .2s;
+    transition: opacity 0s ease .2s;
+}
+
+.drop.dragged .intro {
+    --y: -120px;
+    opacity: 0;
+}
+
+.drop.dragged .hint {
+    --y: 60px;
+    opacity: 1;
+}
+
+.drop.dropped .center > div {
+    background: none;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.drop.dropped .center > div .circle svg {
+    -webkit-animation: scale .7s linear .4s;
+    animation: scale .7s linear .4s;
+}
+
+.drop.show .center {
+    --y: -40px;
+}
+
+.drop.show .center > div {
+    opacity: 0;
+}
+
+.drop.show .list li {
+    --y: 0;
+    opacity: 1;
+}
+
+.drop.show .hint {
+    --y: 40px;
+    opacity: 0;
+}
+
+#emitter {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dot {
+    background-color: var(--primary);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    pointer-events: none;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+@-webkit-keyframes move {
+    50% {
+        -webkit-transform: translate(-50%, -70%);
+        transform: translate(-50%, -70%);
+    }
+}
+
+@keyframes move {
+    50% {
+        -webkit-transform: translate(-50%, -70%);
+        transform: translate(-50%, -70%);
+    }
+}
+
+@-webkit-keyframes scale {
+    40% {
+        -webkit-transform: scale(0.92) rotate(var(--r));
+        transform: scale(0.92) rotate(var(--r));
+    }
+}
+
+@keyframes scale {
+    40% {
+        -webkit-transform: scale(0.92) rotate(var(--r));
+        transform: scale(0.92) rotate(var(--r));
+    }
+}
+
+@-webkit-keyframes tick {
+    100% {
+        -webkit-transform: rotate(-90deg) translate(0, -6px) scale(var(--s));
+        transform: rotate(-90deg) translate(0, -6px) scale(var(--s));
+    }
+}
+
+@keyframes tick {
+    100% {
+        -webkit-transform: rotate(-90deg) translate(0, -6px) scale(var(--s));
+        transform: rotate(-90deg) translate(0, -6px) scale(var(--s));
+    }
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: space-between;
+    -ms-flex-align: space-between;
+    align-items: space-between;
+    overflow: auto;
+}
+
+.wrapper .item {
+    width: 20%;
+    height: 80px;
+    margin: .8%;
+    -webkit-box-shadow: var(--f7-elevation-3) !important;
+    box-shadow: var(--f7-elevation-3) !important;
+    background: #ddd;
+    -webkit-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.theme-color {
+    border: dashed gold 4px;
+}
+
+.grid {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.grid .item {
+    width: 30%
+}
+
+.list {
+    -ms-flex-wrap: auto;
+    flex-wrap: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.list .item {
+    width: 98%;
+}
+
+
+.wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+    background-color: #f8f9fa;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 5px;
+    background-color: #fafafa;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #f5f5f5;
+    -webkit-box-shadow: var(--f7-elevation-5);
+    box-shadow: var(--f7-elevation-5);
+    z-index: 999;
+}
+
+.resp-frame {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.resp {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 10002;
+}
+
+.a-close {
+    z-index: 120000;
+    width: 30px;
+    height: 30px;
+    float: right;
+    right: 1%;
+    color: white;
+    border-radius: 2%;
+    position: absolute;
+}
+
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.badge {
+    -webkit-box-shadow: var(--f7-elevation-3) !important;
+    box-shadow: var(--f7-elevation-3) !important;
+    background: goldenrod;
+    color: #fafafa;
+    border-radius: 5%;
+    left: 2px;
+    width: 50px;
+    margin-top: -1.5%;
+    height: 35px;
+}

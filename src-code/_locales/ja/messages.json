@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "名の拡張子"
+  },
+  "action_menu": {
+    "message": "ロックこのページ🔒(Shift+L)"
+  },
+  "options_old": {
+    "message": "入力:古いピン"
+  },
+  "options_new": {
+    "message": "入：新しいpin"
+  },
+  "options_state": {
+    "message": "成功を保存"
+  },
+  "options_reset": {
+    "message": "リセット"
+  }
+}

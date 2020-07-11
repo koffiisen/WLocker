@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "Nombre de la extensión"
+  },
+  "action_menu": {
+    "message": "Bloqueo De Esta Página 🔒 (Shift+L)"
+  },
+  "options_old": {
+    "message": "Entrar : Su antiguo pin"
+  },
+  "options_new": {
+    "message": "Intro : el nuevo pin"
+  },
+  "options_state": {
+    "message": "Éxito de la guarda"
+  },
+  "options_reset": {
+    "message": "Reset"
+  }
+}

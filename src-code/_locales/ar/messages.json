@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "اسم التمديد"
+  },
+  "action_menu": {
+    "message": "قفل هذه الصفحة 🔒 (Shift+L)"
+  },
+  "options_old": {
+    "message": "أدخل : القديم الخاص بك pin"
+  },
+  "options_new": {
+    "message": "أدخل : الجديد الخاص بك pin"
+  },
+  "options_state": {
+    "message": "ناجحة حفظ"
+  },
+  "options_reset": {
+    "message": "إعادة تعيين"
+  }
+}

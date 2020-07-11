@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "名的扩展"
+  },
+  "action_menu": {
+    "message": "锁定这个页面🔒(Shift+L)"
+  },
+  "options_old": {
+    "message": "输入你的老销"
+  },
+  "options_new": {
+    "message": "请输入您的新的销"
+  },
+  "options_state": {
+    "message": "成功的保存"
+  },
+  "options_reset": {
+    "message": "重置"
+  }
+}

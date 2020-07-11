@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>My First Chrome Extension</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<div class="drop">
+    <nav>
+        <img src="../icons/tblock64.png" style="height: 50px;width: 50px" alt="TBLocker">
+        <ul>
+            <li class="active">
+                <a href="">WLocker</a>
+            </li>
+        </ul>
+        <ul>
+            <li id="lock-page">
+                <a href="">
+                    <img src="../icons/lock.svg" style="width: 30px;height: 30px" alt="lock_page">
+                </a>
+            </li>
+            <li id="go-to-options">
+                <a href="">
+                    <img src="../icons/settings.png" style="width: 30px;height: 30px" alt="settings">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <h4>Theme</h4>
+    </div>
+    <div>
+        <div class="wrapper" style="background: rgba(255,255,255,.4)">
+            <div class="item"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <hr>
+        <strong>Visit Website : <a href="https://koffiisen.github.io/WLocker/" target="_blank">
+            https://koffiisen.github.io/WLocker/
+        </a></strong>
+    </div>
+</div>
+<div class="resp">
+    <a href="#" class="a-close center">
+        <img src="../icons/close.svg" alt="close">
+    </a>
+    <iframe class="resp-frame" src="options.html"></iframe>
+</div>
+
+
+<script type="text/javascript" src="../libs/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="../js/utils.js"></script>
+<script type="text/javascript" src="../js/color.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

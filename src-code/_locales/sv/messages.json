@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "Namnet på tillägget"
+  },
+  "action_menu": {
+    "message": "Lås Den Här Sidan 🔒 (Shift+L)"
+  },
+  "options_old": {
+    "message": "Ange : Din gamla pin-kod"
+  },
+  "options_new": {
+    "message": "Ange : Din nya pin-kod"
+  },
+  "options_state": {
+    "message": "Framgångsrika sparas"
+  },
+  "options_reset": {
+    "message": "Återställ"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "Name of the extension"
+  },
+  "action_menu": {
+    "message": "Lock This Page \uD83D\uDD12 (Shift+L)"
+  },
+  "options_old": {
+    "message": "Enter : Your old pin"
+  },
+  "options_new": {
+    "message": "Enter : Your new pin"
+  },
+  "options_state": {
+    "message": "Successful saved"
+  },
+  "options_reset": {
+    "message": "Reset"
+  }
+}

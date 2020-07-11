@@ -1,0 +1,21 @@
+{
+  "app_title": {
+    "message": "WLocker",
+    "description": "Nom de l'extension"
+  },
+  "action_menu": {
+    "message": "Verrouiller Cette Page 🔒 (Maj+L)"
+  },
+  "options_old": {
+    "message": "Inscrivez Votre ancien code pin"
+  },
+  "options_new": {
+    "message": "Entrée : Votre nouveau code pin"
+  },
+  "options_state": {
+    "message": "Succès enregistrés"
+  },
+  "options_reset": {
+    "message": "Réinitialiser"
+  }
+}
