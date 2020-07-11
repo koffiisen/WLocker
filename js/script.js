@@ -2,16 +2,24 @@ const ua = window.navigator.userAgent.toLowerCase();
 const isChrome = /chrome|crios/.test(ua) && !/edge|opr\//.test(ua)
 const isBrave = isChrome && !window.googletag;
 
+
+// Chrome 1 - 79
+var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+// Edge (based on chromium) detection
+var isEdgeChromium = isChrome && (navigator.userAgent.indexOf("Edg") != -1);
+
+
 var dt = detect.parse(navigator.userAgent);
 
 const btn = $('#dl');
 setTimeout(function () {
-    if (isBrave) {
+    if (isEdgeChromium) {
         btn.empty();
         setTimeout(function () {
             btn.append(
                 '<a class="btn btn-success btn-xl js-scroll-trigger" href="#chromeURL">' +
-                '            <img style="width: 30px;height: 30px" src="img/brave.svg">' +
+                '            <img style="width: 30px;height: 30px" src="img/edge.png">' +
                 '                Download for Brave' +
                 '</a>'
             )
