@@ -20,7 +20,7 @@ setTimeout(function () {
         btn.empty();
         setTimeout(function () {
             btn.append(
-                '<a class="btn btn-success btn-xl js-scroll-trigger" href="#chromeURL">' +
+                '<a class="btn btn-success btn-xl js-scroll-trigger" href="#EdgeURL">' +
                 '            <img style="width: 30px;height: 30px" src="img/edgec.png">' +
                 '                Download for Edge Chromium' +
                 '</a>'
@@ -85,7 +85,7 @@ setTimeout(function () {
                 btn.empty();
                 setTimeout(function () {
                     btn.append(
-                        '<a class="btn btn-success btn-xl js-scroll-trigger" href="#firefoxUrl">' +
+                        '<a class="btn btn-success btn-xl js-scroll-trigger" href="#FirefoxUrl">' +
                         '            <img style="width: 30px;height: 30px" src="img/firefox.png">' +
                         '                Download for Firefox' +
                         '</a>'
