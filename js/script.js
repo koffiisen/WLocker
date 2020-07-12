@@ -85,7 +85,7 @@ setTimeout(function () {
                 btn.empty();
                 setTimeout(function () {
                     btn.append(
-                        '<a class="btn btn-success btn-xl js-scroll-trigger" href="#FirefoxUrl">' +
+                        '<a target="_blank" class="btn btn-success btn-xl js-scroll-trigger" href="https://addons.mozilla.org/fr/firefox/addon/wlocker/">' +
                         '            <img style="width: 30px;height: 30px" src="img/firefox.png">' +
                         '                Download for Firefox' +
                         '</a>'
