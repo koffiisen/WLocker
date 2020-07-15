@@ -20,7 +20,7 @@ setTimeout(function () {
         btn.empty();
         setTimeout(function () {
             btn.append(
-                '<a class="btn btn-success btn-xl js-scroll-trigger" href="#EdgeURL">' +
+                '<a target="_blank" class="btn btn-success btn-xl js-scroll-trigger" href="https://microsoftedge.microsoft.com/addons/detail/mcfgoopgfpeholmnfgekajdkjkbhbhjd">' +
                 '            <img style="width: 30px;height: 30px" src="img/edgec.png">' +
                 '                Download for Edge Chromium' +
                 '</a>'
@@ -72,7 +72,7 @@ setTimeout(function () {
                 btn.empty();
                 setTimeout(function () {
                     btn.append(
-                        '<a class="btn btn-success btn-xl js-scroll-trigger" href="#edgeURL">' +
+                        '<a target="_blank" class="btn btn-success btn-xl js-scroll-trigger" href="https://microsoftedge.microsoft.com/addons/detail/mcfgoopgfpeholmnfgekajdkjkbhbhjd">' +
                         '            <img style="width: 30px;height: 30px" src="img/edge.svg">' +
                         '                Download for Edge' +
                         '</a>'
